@@ -1,0 +1,168 @@
+/* Colors and fonts */
+
+body {
+	background-color: rgb(240, 240, 240);
+	color: rgb(60, 60, 60);
+	font-family: 'Nunito Sans', sans-serif;	font-size: 14px;
+	}
+
+h1, h2, h3 {
+	font-family: 'Montserrat', sans-serif;
+	}
+
+h1 {
+	color: #e85151;
+    background-color: #ffffff;
+    font-size: 30px;
+    font-weight: 400;
+    letter-spacing: 12px;
+	}
+
+h2 {
+    color: #ffffff;
+    background-color: #e85151;
+    letter-spacing: -0.5px;
+    font-size: 24px;
+    font-weight: 200;
+	}
+
+a {
+	text-decoration: none;
+	color: #e85151;
+	font-weight: bold;
+	}
+
+a:hover {
+	color:#d63c3c;
+	font-weight: lighter;
+	}
+
+p {
+	color: rgb(60, 60, 60);
+	text-justify: center;
+	}
+
+/* Custom design with class */
+
+.container {
+	width: 700px;
+	margin: 40px auto;
+	}
+
+@media (max-width: 960px) {
+  .container {
+  	width: 700px;
+  } 
+  } 
+
+@media (max-width: 720px) {
+  .container {
+  	width: 500px;
+  } 
+  }
+
+@media (max-width: 540px) {
+  .container {
+  	width: 300px;
+  } 
+  }
+
+.card-white {
+    background-color: white;
+    padding: 40px;
+    margin: 20px auto;
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+    border-radius: 4px;
+    width: 700px;
+    text-align: center;
+    }
+
+.card-left {
+	background-color: white;
+    padding: 40px;
+    margin: 20px auto;
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+    border-radius: 4px;
+    width: 700px;
+    text-align: justify;
+    }
+
+.card-left p {
+	margin-left: 120px
+	}
+
+.title-center {
+    text-align: center;
+    }
+
+.btn-pink {
+	background-color: #e85151;
+	color: white;
+	padding: 10px;
+	border-radius: 4px;
+	}
+
+.btn-pink:hover {
+	background-color: #d63c3c;
+	padding: 10px;
+	border-radius: 4px;
+	color: white;
+	font-weight: bold;
+	}
+
+.img-circle {
+	border-radius: 50%
+	}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+	}
+
+.list-inline li {
+	display: inline;
+	padding: 10px;
+	}
+
+.list-inline i {
+	font-size: 16px;
+	color: rgb(60, 60, 60);
+	}
+
+.list-inline i:hover {
+	font-size: 16px;
+	color: rgb(110, 110, 110);
+	}
+
+.img-left {
+  float: left;
+  border-radius: 50%
+  }
+
+.img-right {
+  float: right;
+  border-radius: 50%;
+  }
+
+i {
+	color:#e85151;
+	}
+
+/* Design adjustments using id */
+
+#introduction p {
+	margin-bottom: 30px;
+	}
+
+#text-right {
+	margin-right: 120px;
+	margin-left: 0px;
+	}
+
+
+
+
+
+
+
+
